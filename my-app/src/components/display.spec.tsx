@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { Display } from "./display";
 
-describe("Given the component Info", () => {
+describe("Given the component Display", () => {
     const mockAddTask = jest.fn();
     const mockTaskToAdd = {
         title: "test",
