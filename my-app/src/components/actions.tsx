@@ -1,7 +1,9 @@
+import { Display } from "./display";
+
 export function Actions() {
     return (
         <div className="actions">
-            <span className="number">667359961</span>
+            <Display></Display>
             <a href="#" className="call">
                 Call
             </a>
